@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import pydeck as pdk
 
-cars = pd.read_csv(r"C:\Users\geoff\Desktop\Wild_Code_School\test_streamlit\file_cars.csv")
+cars = pd.read_csv("https://raw.githubusercontent.com/geoffreycastel/Test_Streamlit/main/file_cars.csv")
 
 df_usa = cars[cars["continent"] == " US."]
 df_europe = cars[cars["continent"] == " Europe."]
